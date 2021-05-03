@@ -1,0 +1,15 @@
+input[type="search"]::-webkit-search-decoration:hover,
+input[type="search"]::-webkit-search-cancel-button:hover {
+    cursor: pointer;
+}
+[v-cloak] { display:none; }
+
+.mt-10 {
+    margin-top: 10rem !important;
+}
+.nav-menu {
+    a {
+        color: black !important;
+        font-size: large;
+    }
+}

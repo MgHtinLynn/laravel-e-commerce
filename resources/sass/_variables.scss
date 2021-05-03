@@ -1,0 +1,54 @@
+// Body
+$body-bg: #ffffff;
+
+// Typography
+$font-family-sans-serif: 'Roboto', sans-serif;
+$font-size-base: 0.9rem;
+$line-height-base: 1.6;
+
+// Colors
+$blue: #3490dc;
+$indigo: #6574cd;
+$purple: #9561e2;
+$pink: #f66d9b;
+$red: #e3342f;
+$orange: #f6993f;
+$yellow: #ffed4a;
+$green: #38c172;
+$teal: #4dc0b5;
+$cyan: #6cb2eb;
+
+// color variables
+$primary: #0091D2;
+$success: #3DBCA0;
+$danger: #FF4C4D;
+$warning: #FF5F00;
+$secondary: #939598;
+$grey: #EDEDED;
+$light: #ffffff;
+$dark: #21282E;
+
+// hovered color variables
+$primary_hover: #0082bd;
+$success_hover: #36A990;
+$danger_hover: #E54445;
+$warning_hover: #E55500;
+$secondary_hover: #848688;
+$grey_hover: #D5D5D5;
+$light_hover: #F5F5F5;
+$dark_hover: #1D2429;
+
+// disable color variables
+$primary_disabled: lighten($primary, 50%);
+$success_disabled: lighten($success, 50%);
+$danger_disabled: lighten($danger, 50%);
+$warning_disabled: lighten($warning, 50%);
+$secondary_disabled: lighten($secondary, 50%);
+$grey_disabled: lighten($grey, 50%);
+$light_disabled: lighten($light, 50%);
+$dark_disabled: lighten($dark, 50%);
+
+// Options Module Variables
+$option-button-size: 50px;
+$option-button-icon-size: 22px;
+$option-button-shadow: 0 2px 10px 0 rgba(0,0,0,0.12);
