@@ -67,7 +67,7 @@ You can call your host name to web-browser
 In my mac
 https://e-commerce-shop.test/
 
-if different dir. need to edit docker-compose file.
+if different dir, need to update docker-compose file.
 
 
 For Migration 
@@ -76,6 +76,17 @@ cp .env.example .env
 docker exec -it app bash
 php artisan migrate --seed
 ```
+
+For Stripe Payment Integration
+.env file
+```console
+publishableKey="${STRIPE_PUBLISHABLE_KEY}"
+secretKey="${STRIPE_SECRET_KEY}"
+```
+
+Check this link docs to detail
+
+https://stripe.com/docs/payments/integration-builder
 
 Enjoy your setup.
 
