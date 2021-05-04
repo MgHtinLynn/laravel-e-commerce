@@ -73,7 +73,7 @@ if different dir. need to edit docker-compose file.
 For Migration 
 ```console
 cp .env.example .env
-docker-exec -it app bash
+docker exec -it app bash
 php artisan migrate --seed
 ```
 
